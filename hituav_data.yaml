@@ -1,0 +1,12 @@
+# YOLOv8 dataset config for local training (paths relative to the repo root).
+# Create the processed dataset first: make preprocess
+path: dataset/hit-uav-processed
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+  - Person
+  - Car
+  - Motorcycle
+  - Other Vehicle

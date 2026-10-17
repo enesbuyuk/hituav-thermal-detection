@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dataset & training artifacts
+/dataset
+hit-uav-processed/
+runs/
+*.zip
+training.log
+*.log
+
+# Model weights (only the trained backend model is tracked)
+*.pt
+!backend/models/best.pt
+
+# Secrets
+kaggle.json
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
